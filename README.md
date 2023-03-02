@@ -7,29 +7,46 @@
 
 ## DESCRIPTION
 
-&emsp;&emsp; ./my_radar [OPTIONS] path_to_script
-&emsp;&emsp; path_to_script: The path to the script file
+&emsp;&emsp; ./my_radar [OPTIONS] path_to_script.
+&emsp;&emsp; path_to_script: The path to the script file.
 
 &emsp;&emsp; **OPTIONS**
-&emsp;&emsp;&emsp; -h
-&emsp;&emsp;&emsp;&emsp; display the help
-&emsp;&emsp;&emsp; -R
-&emsp;&emsp;&emsp;&emsp; disable sprite rotation
-&emsp;&emsp;&emsp; -L
-&emsp;&emsp;&emsp;&emsp; start the simulation with hitboxes and areas disabled
-&emsp;&emsp;&emsp; -S
-&emsp;&emsp;&emsp;&emsp; start the simulation with sprites disabled
-&emsp;&emsp;&emsp; -B
-&emsp;&emsp;&emsp;&emsp; start the simulation with background disable
-&emsp;&emsp;&emsp; -G
-&emsp;&emsp;&emsp;&emsp; start the simation with the grid enable
-&emsp;&emsp;&emsp; -M [VALUE]
-&emsp;&emsp;&emsp;&emsp; start the simulation with a given speed
-&emsp;&emsp;&emsp;&emsp;&emsp; the VALUE as to be a positive integer between 1 and 4
-&emsp;&emsp;&emsp;&emsp;&emsp; the default value is set to 1
-&emsp;&emsp; **EXIT STATUS**
-&emsp;&emsp;&emsp; 0 Successful program execution,
-&emsp;&emsp;&emsp; 1 Usage, syntax or file error.
+&emsp;&emsp;&emsp; -h<br>
+&emsp;&emsp;&emsp;&emsp; display the help<br>
+
+&emsp;&emsp;&emsp; -R<br>
+
+&emsp;&emsp;&emsp;&emsp; disable sprite rotation<br>
+
+&emsp;&emsp;&emsp; -L<br>
+
+&emsp;&emsp;&emsp;&emsp; start the simulation with hitboxes and areas disabled<br>
+
+&emsp;&emsp;&emsp; -S<br>
+
+&emsp;&emsp;&emsp;&emsp; start the simulation with sprites disabled<br>
+
+&emsp;&emsp;&emsp; -B<br>
+
+&emsp;&emsp;&emsp;&emsp; start the simulation with background disable<br>
+
+&emsp;&emsp;&emsp; -G<br>
+
+&emsp;&emsp;&emsp;&emsp; start the simation with the grid enable<br>
+
+&emsp;&emsp;&emsp; -M [VALUE]<br>
+
+&emsp;&emsp;&emsp;&emsp; start the simulation with a given speed<br>
+
+&emsp;&emsp;&emsp;&emsp;&emsp; the VALUE as to be a positive integer between 1 and 4<br>
+
+&emsp;&emsp;&emsp;&emsp;&emsp; the default value is set to 1<br>
+
+&emsp;&emsp; **EXIT STATUS**<br>
+
+&emsp;&emsp;&emsp; 0 Successful program execution,<br>
+
+&emsp;&emsp;&emsp; 1 Usage, syntax or file error.<br>
 
 ## USER INTERACTIONS
 &emsp;&emsp; 'L' key: enable/disable hitboxes and areas
@@ -43,18 +60,24 @@
 &emsp;&emsp; 'right_arrow' reset speed to 1
 
 ## SCRIPT FORMAT
-&emsp;&emsp; The script file describe the plane and the tower to use inside the program.
-&emsp;&emsp; The script has no limit in terms of object describe, but as to be written the following way:
+&emsp;&emsp; The script file describe the plane and the tower to use inside the program.<br>
 
-&emsp;&emsp; ""A <start position X> <start position Y> <end position X> <end position Y> <speed int (Px/s)> <time before take off (s)>""
-&emsp;&emsp; OR
-&emsp;&emsp; "T <position X> <position Y> <radius (%)>"
+&emsp;&emsp; The script has no limit in terms of object describe, but as to be written the following way:<br>
+
+&emsp;&emsp; ""A <start position X (Px)> <start position Y (Px)> <end position X (Px)> <end position Y (Px)> <speed int (Px/s)> <time before take off (s)>""<br>
+
+&emsp;&emsp; OR<br>
+
+&emsp;&emsp; "T <position X (Px)> <position Y (Px)> <radius (%)>"<br>
+
 <br/>
-&emsp;&emsp; All the value describe are positive integers
-&emsp;&emsp; ALL those value are in pixel, except for:
-- <speed int>: pixel per second
-- <time before take off>: second
-- <radius>: percentage of the window size
+&emsp;&emsp; All the value describe are positive integers<br>
+
+&emsp;&emsp; ALL those value are in pixel, except for:<br>
+
+- <speed int>: pixel per second<br>
+- <time before take off>: second<br>
+- <radius>: percentage of the window size<br>
 
 ## EXAMPLE
 &emsp;&emsp; ./my_radar -h
