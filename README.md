@@ -49,15 +49,15 @@
 &emsp;&emsp;&emsp; 1 Usage, syntax or file error.<br>
 
 ## USER INTERACTIONS
-&emsp;&emsp; 'L' key: enable/disable hitboxes and areas
-&emsp;&emsp; 'S' key: enable/disable sprites
-&emsp;&emsp; 'B' key: enable/disable background
-&emsp;&emsp; 'G' key: enable/disable grid
-&emsp;&emsp; 'Q' key: close the window
-&emsp;&emsp; 'SPACE' key: play/pause the simulation
-&emsp;&emsp; 'up_arrow' key: increase speed
-&emsp;&emsp; 'down_arrow' key: decrease speed
-&emsp;&emsp; 'right_arrow' reset speed to 1
+&emsp;&emsp; 'L' key: enable/disable hitboxes and areas<br>
+&emsp;&emsp; 'S' key: enable/disable sprites<br>
+&emsp;&emsp; 'B' key: enable/disable background<br>
+&emsp;&emsp; 'G' key: enable/disable grid<br>
+&emsp;&emsp; 'Q' key: close the window<br>
+&emsp;&emsp; 'SPACE' key: play/pause the simulation<br>
+&emsp;&emsp; 'up_arrow' key: increase speed<br>
+&emsp;&emsp; 'down_arrow' key: decrease speed<br>
+&emsp;&emsp; 'right_arrow' reset speed to 1<br>
 
 ## SCRIPT FORMAT
 &emsp;&emsp; The script file describe the plane and the tower to use inside the program.<br>
